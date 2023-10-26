@@ -1,19 +1,34 @@
 #include<stdio.h>
 main()
 {
-	int ;
-	printf("");
-	scanf("%d",&);
-	printf("");
-	scanf("%d",&);
+	char alphabet ;
+	printf("Enter any alphabet");
+	scanf("%c",&alphabet);
 	
-	if()
+	
+	if(alphabet=='a')
 	{
-	 	printf("");
+	 	printf("It's a vowel");
+	}
+	else if (alphabet='e')
+	{
+	 	printf("It's a vowel");
+	}
+	else if (alphabet='i')
+	{
+	 	printf("It's a vowel");
+	}
+	else if (alphabet='o')
+	{
+	 	printf("It's a vowel");
+	}
+	else if (alphabet='u')
+	{
+	 	printf("It's a vowel");
 	}
 	else
 	{
-		printf("");
+		printf("It's not a vowel");
 	}
 }
 
